@@ -384,7 +384,7 @@ if __name__ == '__main__':
     source = 'COCO'
 
     if source == 'COCO':
-        convert_coco_json('../datasets/coco/annotations',  # directory with *.json
+        convert_coco_json('C:/Users/mobiu/Desktop',  # directory with *.json
                           use_segments=True,
                           cls91to80=True)
 
